@@ -83,14 +83,7 @@
                 <input id="height" type="number" min="1" max="100" value="">
                 <span id="thirdWarning" class="text-danger"></span>
               </fieldset>
-            <!--</div>-->
-            <!--end column 1-->
-      
-            <!--column 2 (5/12) -->
-            <!--<div class="col-md-5 mb-4">
-              <h2>Try it:</h2>
-              <hr>
-            -->
+            
               <br>
               <button id="mulButton" class="btn btn-outline-primary" type="button"><strong>Volume</strong></button>
               <button id="wiper" class="btn btn-outline-danger"><strong>Clear Storage</strong></button>
@@ -102,8 +95,6 @@
             <br>
             <h2>Let AJAX change this text</h2>
             </div>
-            <!-- <button id="getJokeButton" class="btn btn-success">Get Joke</button> -->
-            <!-- <button id="mulButton" class="btn btn-indigo">Coming soon!</button> -->
             <hr>
             <p id="result"></p>
             
@@ -115,64 +106,7 @@
           <p class="m-0 text-center text-white">Copyright &copy; Maha Lakshmi 2019</p>
         </div>
     </footer>
-<!--
-<script>
-/* global localStorage */
-console.log('SCRIPT START')
-    console.log('Declare testtable functions......................')
-    function mult(x, y, z) { return x * y * z }
-    console.log('Defined mul=' + mult)
-    console.log('Declare event listeners .......................')
-    window.addEventListener('load', (event) => {
-      console.log('  Starting initialization ')
-      if (localStorage.getItem('length')) 
-      {
-        document.querySelector('#length').value = parseInt(localStorage.getItem('length'))
-        console.log(`  Stored length = ${localStorage.length}`)
-      }
-      if (localStorage.getItem('breadth')) 
-      {
-        document.querySelector('#breadth').value = parseInt(localStorage.getItem('breadth'))
-        console.log(`  Stored breadth = ${localStorage.breadth}`)
-      }
-      if (localStorage.getItem('height')) 
-      {
-        document.querySelector('#height').value = parseInt(localStorage.getItem('height'))
-        console.log(`  Stored height = ${localStorage.height}`)
-      }
-      console.log('  Finished initialization')
-    })
-    document.querySelector('#mulButton').addEventListener('click', () => {
-      console.log('  Starting clicker click handler')
-      const origCount = parseInt(localStorage.getItem('countOfClicks')) || 0
-      const i = document.querySelector('#length').value
-      console.log('i=' + i)
-      const j = parseInt(document.querySelector('#breadth').value)
-      console.log('j=' + j)
-      const k = parseInt(document.querySelector('#height').value)
-      console.log('k=' + k)
-      const ct = origCount + 1
-      const ans = ` Volume of a Cube with length: ${i}, breadth: ${j}, height: ${k} is ${mul(i, j, k)}. This has been run  ${ct}  times.`
-      document.querySelector('#result').innerHTML = ans
-      localStorage.setItem('countOfClicks', ct)  // define a string key to store + its value
-      localStorage.setItem('length', i)
-      localStorage.setItem('breadth', j)
-      localStorage.setItem('height', k)
-      console.log('  Finished clicker click handler')
-    })
-    document.querySelector('#wiper').addEventListener('click', () => {
-      console.log('  Starting wiper click handler')
-      localStorage.removeItem('countOfClicks')
-      localStorage.removeItem('length')
-      localStorage.removeItem('breadth')
-      localStorage.removeItem('height')
-      console.log('  Finished wiper click handler - localStorage entries removed')
-    })
-    console.log('SCRIPT END')
-  </script>-->
  
-  
-
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

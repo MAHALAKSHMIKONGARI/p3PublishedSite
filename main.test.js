@@ -1,6 +1,6 @@
 QUnit.module('MAIN MODULE', {})  // group all these tests together
 
-QUnit.test('TEST add', assert => {
+QUnit.test('TEST mult', assert => {
   assert.equal(mult(1, 1, -1), -1, 'Positive integers')
   assert.equal(mult(-1, -1, 2), 2, 'Negative integers')
   assert.equal(mult(-9, -3, -1), -27, 'Mixed')
