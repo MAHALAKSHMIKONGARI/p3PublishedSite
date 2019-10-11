@@ -1,0 +1,77 @@
+body
+{
+  padding-top: 5rem;
+}
+
+body, html 
+{
+  height: 100%;
+}
+
+.video-wrapper
+{
+  width: 60%;
+  background-color: lightblue;
+}
+
+section 
+{
+  margin: 1rem;
+  padding: 2rem;
+  background-color: lightblue;
+  border-radius: 2em;
+  
+}
+
+.bgimg 
+{
+  background-image: url("https://raw.githubusercontent.com/MAHALAKSHMIKONGARI/hello-world/master/20180506_105210.jpg");
+  height: 100%;
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* fixed in viewport */
+}
+
+#list
+{
+  text-decoration : underline;
+  text-decoration-color: hotpink;
+}
+
+#OL
+{
+  width:30%;
+  background-color: aqua;
+}
+
+#UL
+{
+  width:60%;
+  background-color: aqua;
+}
+
+body, .sticky-footer-wrapper
+    {
+      min-height: 100vh;
+    }
+    input:invalid+span:after
+    {
+    content: '✖';
+    padding-left: 5px;
+    }
+    input:valid+span:after 
+    {
+    content: '✓';
+    padding-left: 5px;
+    }
+
+    #result
+    {
+      font-weight: bold;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
